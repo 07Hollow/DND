@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Herbarium Medicum}
+\rhead{\thepage}
+
+\titleformat{\section}{\large\bfseries\color{darkgreen}}{\thesection}{1em}{}
+\definecolor{darkgreen}{rgb}{0.0, 0.4, 0.0}
+
+\title{\Huge\bfseries Herbarium Medicum\\[0.2cm]\large Das persönliche Heilkräuterbuch von Kagami Kagamiya}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\newpage
+
+% Beispiel-Eintrag: Schafgarbe
+\section{Schafgarbe (Achillea millefolium)}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{schafgarbe.jpg}
+    \caption*{Abbildung: Schafgarbe (selbst gezeichnet / eingeheftet)}
+\end{figure}
+
+\subsection*{Fundort}
+Wiesen, Wegränder, lichte Wälder, Hochländer
+
+\subsection*{Anwendung}
+Wundheilung, blutstillend, fiebersenkend, krampflösend
+
+\subsection*{Zubereitung}
+\textcolor{gray}{(Hier eigene Rezepte oder Notizen eintragen)}
+
+\subsection*{Forschung/Beobachtung}
+\textcolor{gray}{(Hier eigene Forschungsergebnisse, Experimente oder Beobachtungen einfügen)}
+
+\newpage
+
+% Nächster Platzhalter
+\section{[Krautname] ([Lateinischer Name])}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{bildname.jpg}
+    \caption*{Abbildung: [Krautname]}
+\end{figure}
+
+\subsection*{Fundort}
+\textcolor{gray}{Hier Fundort notieren...}
+
+\subsection*{Anwendung}
+\textcolor{gray}{Hier medizinische Wirkung oder Anwendung beschreiben...}
+
+\subsection*{Zubereitung}
+\textcolor{gray}{Zubereitungsform: Tee, Tinktur, Umschlag, etc.}
+
+\subsection*{Forschung/Beobachtung}
+\textcolor{gray}{Eigene Forschung, Notizen, Experimente...}
+
+\newpage
+
+% Weitere Abschnitte folgen...
+
+\end{document}
