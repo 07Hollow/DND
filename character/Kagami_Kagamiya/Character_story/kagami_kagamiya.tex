@@ -10,13 +10,18 @@
 \usepackage{enumitem}
 \usepackage{lmodern}
 \usepackage{hyperref}
+\usepackage{bookmark}
 \usepackage{multicol}
+\setlength{\headheight}{15pt}
+
+% variables
+\newcommand{\AuthorName}{Sebastian Simon (Hollow)}
 
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Kagami Kagamiya}
-\lhead{Charakterprofil}
+\rhead{Autor: \AuthorName}
+\lhead{Charakterbook: Kagami Kagamiya}
 \cfoot{\thepage}
 
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
@@ -34,14 +39,11 @@
 \begin{titlepage}
     \centering
     \vspace*{2cm}
-    \includegraphics[width=0.5\textwidth]{kagami.jpg}\\[1.5cm]
+    \includegraphics[width=0.7\textwidth]{kagami.jpg}\\[1.5cm]
     {\Huge\bfseries Kagami Kagamiya}\\[0.5cm]
-    {\Large Charakterbuch}\\[2cm]
+    {\Large Für die Kampagne DnD von Joshua}\\[2cm]
     \vfill
-    \textsc{Rasse:} Waldelfe (Albino) \\
-    \textsc{Alter:} 25 Jahre \\
-    \textsc{Beruf:} Apothekerin und freiwillige Ärztin \\
-    \textsc{Setting:} Mittelalterlich, Fantasywelt \\
+    \textsc{Autor:} \AuthorName \\
     \vfill
     \today
 \end{titlepage}
